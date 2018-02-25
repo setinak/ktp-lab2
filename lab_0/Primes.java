@@ -1,7 +1,7 @@
 public class Primes{
     public static boolean isPrime(int n)
         {
-            for(int j = 3; j < n; j++){
+            for(int j = 2; j < n; j++){
                 if(n % j == 0)
                 return false;
             }
