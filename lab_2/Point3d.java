@@ -2,40 +2,40 @@
     Описание трехмерной точки
 */
 public class Point3d {
-    private double x, y, z;
+    private double xCoord, yCoord, zCoord;
 
-    public Point3d(double x1, double y1, double z1) {
-        x = x1;
-        y = y1;
-        z = z1;
+    public Point3d(double x, double y, double z) {
+        xCoord = x;
+        yCoord = y;
+        zCoord = z;
     }
 
     public Point3d() {
         this(0., 0., 0.);
     }
 
-    public void setX(double x1) {
-        x = x1;
+    public void setX(double val) {
+        xCoord = val;
     }
 
-    public void setY(double y1) {
-        y = y1;
+    public void setY(double val) {
+        yCoord = val;
     }
 
-    public void setZ(double z1) {
-        z = z1;
+    public void setZ(double val) {
+        zCoord = val;
     }
 
     public double getX() {
-        return x;
+        return xCoord;
     }
 
     public double getY() {
-        return y;
+        return yCoord;
     }
 
     public double getZ() {
-        return z;
+        return zCoord;
     }
 
     //Проверка равенства 2-х точек
